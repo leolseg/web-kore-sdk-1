@@ -98,6 +98,7 @@ Integration of Kore.ai chat UI into your App. Clone the repository and create yo
 			"aud": "",
 			"isAnonymous": false
 		};
+		
 		$.ajax({
 			url: botOptions.JWTUrl,
 			type: 'post',
